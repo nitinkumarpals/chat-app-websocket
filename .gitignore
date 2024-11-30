@@ -1,0 +1,64 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+
+
+# Ignore build and compilation files
+node_modules/
+target/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore temp files
+tmp/
+*.tmp
+
+# Ignore cache files
+.cache/
+*.cache
+
+# Ignore config files
+config.json
+config.js
+
+# Ignore secrets and credentials
+secrets.json
+credentials.json
+
+# Ignore test files
+test/
+tests/
+
+# Ignore coverage files
+coverage/
+
+
+# Ignore miscellaneous files
+*.env
+*.lock
+*.pid
+*.seed
+*.sqlite
+*.db
+*.sql
+*.csv
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.pdf
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+*.tar
+*.tgz
+*.tbz2
