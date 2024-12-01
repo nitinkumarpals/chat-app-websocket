@@ -37,7 +37,9 @@ wss.on("connection", (socket) => {
           return;
         }
         roomClients.forEach((clientSocket, id) => {
+          if (clientSocket !== socket) {
             clientSocket.send(parsedMsg.payload.message || "");
+          }
         });
       }
     } catch (error) {
